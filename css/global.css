@@ -895,6 +895,7 @@ html {
     background: #006738 url(../img/icon-arrows.png) no-repeat 250px 50%;
     font-family: 'open_sansbold';
     font-size: 14px;
+    color: #fff;
     display: block;
     height: 50px;
     line-height: 50px;
