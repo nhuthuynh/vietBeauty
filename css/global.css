@@ -58,7 +58,7 @@ html {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
-    -box-sizing: border-box;
+    box-sizing: border-box;
 }
 .container ul, .container li, .container div {
     margin: 0;
