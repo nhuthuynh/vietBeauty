@@ -234,14 +234,14 @@ html {
     background: url(../img/content-bg.png) no-repeat 0 100%;
 }
 .body .title-content {
-    background-color: #006738;
-    color: #fff;
-    font-family: 'open_sansbold', Arial, sans-serif;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 10px 0;
-    text-indent: 20px;
-    text-transform: uppercase;
+	background-color: #006738;
+	color: #fff;
+	font-family: 'open_sansbold', Arial, sans-serif;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 10px 0;
+	text-indent: 20px;
+	text-transform: uppercase;
 }
 .body .content-wrapper {
     color: #474343;
@@ -289,7 +289,7 @@ html {
     margin: 0 0 10px 0;
 }
 .body .content-about .about-ubm-logo {
-    margin: 0 20px 200px 0;
+    margin: 0 20px 3w00px 0;
 }
 .body .content-about ul {
     padding-left: 85px;
@@ -733,6 +733,10 @@ html {
     display: inline-block;
     padding: 10px 15px;
 }
+.news .article-news a { 
+ color:#fff;
+text-decoration: none;
+}
 .news .nav-tab li:hover a, .news .nav-tab li.active a {
     background-color: #006738;
 }
@@ -752,6 +756,7 @@ html {
 .news .article-news h3 {
     font-size: 1.25em;
     margin: 10px 0;
+	
 }
 .news .article-news .btn-viewall {
     background-color: #49b970;
@@ -762,7 +767,7 @@ html {
     left: 15px;
     position: absolute;
     padding: 5px 15px;
-}
+	}
 .articles .why-should-exhibit {
     color: #006738;
     padding: 0 0 35px 0;
@@ -818,7 +823,7 @@ html {
     text-transform: uppercase;
 }
 .body .general-info .general-info-content {
-    font-size: 0.85em;
+    font-size: 1.0em;
     line-height: 14px;
     text-align: justify;
     margin-bottom: 5px;
@@ -832,27 +837,21 @@ html {
 }
 .body .col-articles {
     color: #fff;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: row;
 }
 .body .col-articles h3 {
     margin: 5px 15px;
 }
 .body .col-articles > article {
     background-color: #006738;
-    -webkit-flex: 1;
-    -moz-flex: 1;
-    -ms-flex: 1;
-    -o-flex: 1;
-    flex: 1;
+    float: left;
     overflow: hidden;
     padding-bottom: 35px;
     position: relative;
+    min-height: 420px;
     width: 260px;
+}
+.body .col-articles > article:last-child {
+    float: right;
 }
 .body .col-articles .article-desc {
     font-size: 0.9em;
