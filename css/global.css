@@ -400,12 +400,11 @@ html {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    width: 1160px;
 }
 .body .slide-show .slide-show-item {
     height: 360px;
     position: relative;
-    width: 1160px;
+    width: 100%;
 }
 .body .slide-show .main-slide {
     background: url(../img/banner1.jpg) no-repeat 0 0;
