@@ -876,7 +876,7 @@ html {
     margin: 0;
     overflow: hidden;
     position: relative;
-    text-indent: -200%;
+    text-indent: -999999px;
     width: 269px;
 }
 
