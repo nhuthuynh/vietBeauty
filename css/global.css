@@ -4,7 +4,7 @@
 
 .open_sansbold {
     font-family: Arial, sans-serif;
-    font-size: bold;
+    font-weight: bold;
 }
 
 .open_sansbold_italic {
@@ -1052,6 +1052,12 @@ html {
     margin-top: 15px;
     height: 100%;
     min-height: 198px;
+}
+
+.aside .media-partners img {
+    display: block;
+    margin: 5px auto;
+    position: relative;
 }
 /********************************
             Footer
