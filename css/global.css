@@ -106,16 +106,11 @@ html {
 }
 
 .header .lang-date-name-show {
-    margin: 20px 0 0 -15px;
-    width: 160px;
+    margin: 15px 0 0 -15px;
 }
 
 .lang-date-name-show .lang {
     color: #000;
-}
-
-.lang-date-name-show .date-show {
-    margin: 0;
 }
 
 .lang-date-name-show .icons-lang {
@@ -136,6 +131,9 @@ html {
 
 .lang-date-name-show .date-show {
     color: #18783c;
+    font-size: 27px;
+    line-height: 30px;
+    margin: 0;
 }
 
 .lang-date-name-show .name-show {
