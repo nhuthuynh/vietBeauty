@@ -106,7 +106,7 @@ html {
 }
 
 .header .lang-date-name-show {
-    margin: 15px 0 0 -15px;
+    margin: 25px 0 0 -15px;
 }
 
 .lang-date-name-show .lang {
@@ -141,14 +141,12 @@ html {
 }
 
 .header .nav-bar {
-    font-family: Arial;
     background-color: #59595c;
     height: 35px;
     padding: 0;
 }
 
 .header .nav {
-    font-family: Arial;
     position: relative;
     z-index: 5;
 }
@@ -171,7 +169,7 @@ html {
     -o-transition: background-color 0.7s ease-in-out 0s;
     -ms-transition: background-color 0.7s ease-in-out 0s;
     transition: background-color 0.7s ease-in-out 0s;
-    font-family: Arial;
+    font-family: 'open_sansbold';
     line-height: 35px;
     padding: 0 10px;
 }
@@ -182,11 +180,11 @@ html {
 }
 
 .header .sub-nav {
-    font-family: Arial;
     background-color: #006738;
     left: 0;
     position: absolute;
     top: 35px;
+    font-family: 'open_sansregular';
     visibility: hidden;
     height: 0;
     opacity: 0;
@@ -217,7 +215,6 @@ html {
 }
 
 .header .sub-nav a {
-    font-family: Arial;
     white-space: nowrap;
 }
 
@@ -420,7 +417,7 @@ html {
     display: inline-block;
     font-size: 0.9em;
     height: 26px;
-    padding: 10px;
+    padding: 5px;
     position: relative;
     width: 100%;
 }
@@ -1171,7 +1168,6 @@ html {
     padding: 0 15px 0;
     background-color: #5b5a5f;
     border-bottom: 1px solid #818181;
-    font-family: Arial;
     font-weight: normal;
     text-decoration: none;
     -webkit-transition: background-color 1s ease-in-out;
@@ -1185,7 +1181,6 @@ html {
 }
 
 .mobile-nav .mobile-nav-submenu {
-    font-family: Arial;
     display: none;
     height: auto;
     width: 100%;
@@ -1198,7 +1193,6 @@ html {
 .mobile-nav .mobile-nav-submenu a {
     background: #006738;
     border-bottom: 1px solid #02713e;
-    font-family: Arial;
     display: block;
 }
 
